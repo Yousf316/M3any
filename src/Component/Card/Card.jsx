@@ -2,7 +2,7 @@
 import styles from "./CardS.module.css"
 import PropTypes from 'prop-types'
 
-function Card({Title ="اسم المانجا" , Link =""})
+function Card({Title ="اسم " , Link =""})
 {
 
     return(
