@@ -9,7 +9,7 @@ function App() {
 
   return(
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/M3any/'>
     <Routes>
       <Route index element={<Home/>}/>
       <Route path="/name/:id" element={<Manga/>}/>
