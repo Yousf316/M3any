@@ -20,7 +20,12 @@ function Card({Title ="اسم " ,Count =1,Description="", Link =""})
         setCount(precount => precount-=1);}
     else{
     btnPreves.current.style.backgroundColor = "#bdbdbdb2" ;
-    setCount(precount => precount-=1);
+
+    if(count ===1)
+        {
+            setCount(precount => precount-=1);
+
+        }
 
     }
     }
