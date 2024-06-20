@@ -11,22 +11,13 @@ function Footer  () {
         <p>
           موقع معاني 
         </p>
-        <ul className="socials">
+        {/* <ul className="socials">
           <li>
             <a href="#">
               <FaGoogle size={30} color="#DB4437" />
             </a>
           </li>
-          {/* <li>
-            <a href="#">
-              <FaInstagram size={30} color="#C13584" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FaInstagram size={30} color="#C13584" />
-            </a>
-          </li> */}
+          
           <li>
             <a href="#">
               <FaInstagram size={30} color="#C13584" />
@@ -37,7 +28,7 @@ function Footer  () {
               <FaLinkedin size={30} color="#0077B5" />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div className="footer-bottom">
         <p>

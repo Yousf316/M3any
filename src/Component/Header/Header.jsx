@@ -41,7 +41,10 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-         
+
+        <a href="/M3any/Adkhar/">قائمة الاذكار</a>
+        <a href="/M3any/NamesOfAllah/">قائمة معاني اسماء اللَّهُ الحسنى</a>
+
           <a href="/M3any/">الصفحة الرئيسية</a>
           
          

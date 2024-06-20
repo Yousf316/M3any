@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import CardInfo from "../Component/CardInfo/CardInfo";
 
-function Manga() {
+function NmaeContect() {
     const { id } = useParams();
     
     // Correctly placed console.log
@@ -15,4 +15,4 @@ function Manga() {
 }
 
 
-export default Manga;
+export default NmaeContect;
