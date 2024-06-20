@@ -16,7 +16,7 @@ function CardMenu({Title ="اسم " , Link =""})
             <br />
             <br />
 
-            <a  href={'/M3any/Adkhar/'+Link} target="_blank" ><h1>{Title}</h1></a>
+            <a  href={'/M3any/Adkhar/'+Link}  ><h1>{Title}</h1></a>
             
             {/* <h2 className={styles.title}> {Title}</h2> */}
            

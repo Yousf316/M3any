@@ -6,7 +6,9 @@ export default function Home(){
 
     return(
         <>
-       <ListNames/>
+       <div>
+        <h1>موق معاني</h1>
+       </div>
       
         </>
     )

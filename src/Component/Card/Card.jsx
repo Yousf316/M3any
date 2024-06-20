@@ -14,7 +14,7 @@ function Card({Title ="اسم " , Link =""})
             <br />
             <br />
 
-            <a  href={'/M3any/name/'+Link} target="_blank" ><h1>{Title}</h1></a>
+            <a  href={'/M3any/name/'+Link}  ><h1>{Title}</h1></a>
             
             {/* <h2 className={styles.title}> {Title}</h2> */}
            
