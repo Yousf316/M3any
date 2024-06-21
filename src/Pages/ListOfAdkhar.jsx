@@ -13,7 +13,7 @@ function ListContect() {
 
     return (
         <>
-        <h1>{AdkharList[0].category}</h1>
+        <h1 style={{ color: "midnightblue" }} >{AdkharList[0].category}</h1>
         {AdkharList.map((Contect,index) => (
             <Card
               key={index}

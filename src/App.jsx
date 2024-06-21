@@ -1,7 +1,7 @@
 
 
 import NmaeContect from "./Pages/NamesOfAllah"
-import AdkharMenu from "./Pages/Adkhar"
+import AdkharMenu from "./Pages/Adkhar/Adkhar"
 import Home from "./Pages/Home"
 import ListNameOfAllh from "./Pages/ListNamesOfAllah"
 import ListContect from "./Pages/ListOfAdkhar"

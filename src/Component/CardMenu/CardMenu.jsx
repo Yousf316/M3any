@@ -10,17 +10,11 @@ function CardMenu({Title ="اسم " , Link =""})
     return(
 
         <div className={styles['Card-info']  }>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+           
 
             <a  href={'/M3any/Adkhar/'+Link}  ><h1>{Title}</h1></a>
             
-            {/* <h2 className={styles.title}> {Title}</h2> */}
-           
-            {/* <p className={styles.description}> {Description}</p> */}
+            
         </div>
     )
 

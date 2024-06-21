@@ -1,8 +1,8 @@
 
-import CardMenu from "../Component/CardMenu/CardMenu";
-import dataNames from "../../data/adkar.json"
+import CardMenu from "../../Component/CardMenu/CardMenu";
+import dataNames from "../../../data/adkar.json"
 import  { useState} from 'react';
-
+import Style from './Adkharstyle.module.css'
 function AdkharMenu() {
     
     
@@ -27,7 +27,7 @@ function AdkharMenu() {
 
     return (
         <>
-        
+        <div className={Style["continer-div"]} >
         {(() => {
         let rows = [];
         for (let i = 0; i < countCategory; i++) {
@@ -35,7 +35,7 @@ function AdkharMenu() {
         }
         return rows;
       })()}
-
+</div>
 
          
         </>
