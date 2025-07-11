@@ -11,7 +11,7 @@ function Footer  () {
     <ul class="socials">
 <li>
   <a href="https://www.youtube.com/@YousefAqlan" target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-youtube"></i> قناة اليوتيوب
+    <i class="fab fa-youtube"></i> 
   </a>
 </li>
 
