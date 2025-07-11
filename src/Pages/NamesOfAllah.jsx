@@ -4,7 +4,6 @@ import CardInfo from "../Component/CardInfo/CardInfo";
 function NmaeContect() {
     const { id } = useParams();
     
-    // Correctly placed console.log
     
 
     return (

@@ -35,11 +35,9 @@ import dataname from '../../../data/Names_Of_Allah.json'
                     
                 </div>
                 <p className={styles["description"]}>
-                    {showMore ? text : text?.substring(0, 450) + '...'}
+                    { text }
                     <br />
-                    <button onClick={() => {
-                        setShowMore(!showMore)
-                    }}>{showMore ? 'Show Less': 'Read More'}</button>
+                    
                 </p>
             </div>
         </>

@@ -2,10 +2,11 @@
 
 import NmaeContect from "./Pages/NamesOfAllah"
 import AdkharMenu from "./Pages/Adkhar/Adkhar"
-import Home from "./Pages/Home"
+
 import ListNameOfAllh from "./Pages/ListNamesOfAllah"
 import ListContect from "./Pages/ListOfAdkhar"
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import Home from "./Pages/home/Home"
 
 
 function App() {

@@ -25,17 +25,16 @@ function ListNames  () {
  
   return (
     <>
-    <div>
-       {NamesList.map(Name => (
-        <Card
-          key={Name.id}
-          // image={Name.images.jpg.image_url}
-          Link={Name.id}
-          Title={Name.name}
-        />
-      ))}
-      
-     </div>
+    <div className={Styles.container} translate="no">
+  {NamesList.map(Name => (
+    <Card
+      key={Name.id}
+      Link={Name.id}
+      Title={Name.name}
+    />
+  ))}
+</div>
+
     </>
   );
 }
