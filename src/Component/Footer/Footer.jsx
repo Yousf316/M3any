@@ -9,7 +9,11 @@ function Footer  () {
     <h3>موقع معاني</h3>
     <p>منصة تجمع بين أذكار وتفسير </p>
     <ul class="socials">
-<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+<li>
+  <a href="https://www.youtube.com/@YousefAqlan" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-youtube"></i> قناة اليوتيوب
+  </a>
+</li>
 
     </ul>
   </div>
